@@ -1,14 +1,10 @@
-import logo from './logo.svg';
-import './App.css';
+import React from 'react';
 
-function App() {
+const App = () => {
   return (
     <div className="App">
-      <title> Remote Health Monitoring
-      </title>
-      <header className="App-header">
-        <div>Remote Health Monitoring</div>
-      </header>
+      <h1> Remote Health Monitoring
+      </h1>
     </div>
   );
 }
